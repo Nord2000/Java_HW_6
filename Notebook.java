@@ -74,7 +74,7 @@ public class Notebook {
 }
 
 
-// А вот код для создания множества ноутбуков:
+// Код для создания множества ноутбуков:
 Set<Notebook> notebooks = new HashSet<>();
 notebooks.add(new Notebook("Apple", "MacBook Pro", 8, 256, "macOS", "Silver"));
 notebooks.add(new Notebook("Dell", "XPS 13", 8, 256, "Windows 10", "Silver"));
@@ -82,7 +82,7 @@ notebooks.add(new Notebook("Asus", "ZenBook", 16, 512, "Windows 10", "Blue"));
 notebooks.add(new Notebook("Lenovo", "ThinkPad T14s", 16, 512, "Windows 10", "Black"));
 
 
-// А вот код для метода фильтрации:
+// Код для метода фильтрации:
 public static void filterNotebooks(Set<Notebook> notebooks) {
     Scanner scanner = new Scanner(System.in);
 
